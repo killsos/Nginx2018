@@ -825,7 +825,6 @@
 	
 	nginx 附带外部模块的编译  ./configure --prefix=/usr/local/nginx/ --add-module=modulePath
 	
-	
 	􏰖􏰗配置memcache集群
 		 
 		 upstream memserver { // 把用到的memcached节点,声明在一个组里
