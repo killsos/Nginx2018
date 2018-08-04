@@ -828,15 +828,14 @@
 	
 	􏰖􏰗配置memcache集群
 		 
-		 upstream memserver { 􏱄􏰮􏰑􏰀 // 把用到的memcached节点,声明在一个组里
+		 upstream memserver { // 把用到的memcached节点,声明在一个组里
 			 
 		 	hash_key $request_uri;  // hash计算时的依据,以uri做依据来hash
 			
 			server localhost:11211; 
 			
 			server localhost:11212;
-		 }􏶀􏶁
-		
+		}
 		
 	Location里
 	
